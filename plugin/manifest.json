@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "PR Application Slot Scraper",
-  "description": "This extension give you a short cut to get slots from ICA eappointment",
+  "name": "PR Application Slot Checker",
+  "description": "This extension give you a short cut to get slots from ICA eAppointment",
   "version": "1.0",
 
   "browser_action": {
