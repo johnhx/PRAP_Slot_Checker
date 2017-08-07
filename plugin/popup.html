@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        #popup {
+            max-width: 480px;
+            background: #FAFAFA;
+            padding: 30px;
+            margin: auto;
+            box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+            border-radius: 10px;
+            border: 6px solid #305A72;
+        }
+
+        input {
+            box-shadow: inset 0px 1px 0px 0px #3985B1;
+            border: 1px solid #17445E;
+            display: inline-block;
+            margin: 9px;
+            padding: 8px 18px;
+            text-decoration: none;
+            font: 12px Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            box-shadow: inset 0px 1px 0px 0px #3985B1;
+            background-color: #216288;
+            border: 1px solid #17445E;
+            display: inline-block;
+            cursor: pointer;
+            color: #FFFFFF;
+            padding: 8px 16px;
+            text-decoration: none;
+            font: 12px Arial, Helvetica, sans-serif;
+            margin: 9px;
+        }
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div id="popup">
+        <label for="fin">Fin No.</label>
+        <input id="fin" type="text" name="fin" class="field-style field-split align-left" placeholder="Fin" />
+        <br>
+        <label for="phone">Phone No.</label>
+        <input id="phone" type="text" name="phone" class="field-style field-split align-left" placeholder="Phone" />
+        <br>
+        <button id="goLatest" type="button">Latest</button> | <button id="goRecent" type="button">Recent</button> 
+        <div id="result" style="display:none">
+            There are <span id="slot"></span> slots available!
+        </div>
+        <div id="error" style="display:none">
+            Fin or Phone number must not be empty!
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
