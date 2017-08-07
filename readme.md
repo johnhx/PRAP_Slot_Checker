@@ -10,7 +10,7 @@
 4. Startup server ```node index```, when step 3 completed.
 
 ## How to use it
-    In your chrome tool bar, you can find a calendar look icon, click it and input your Fin number with your phone number.
+In your chrome tool bar, you can find a calendar look icon, click it and input your FIN number and your phone number.
 <br>
-    1. Click "Recent" to load nearest slots.
-    2. Click "Latest" to load newestly released slots from future.
+1. Click "Recent" to load nearest slots.
+2. Click "Latest" to load newestly released slots from future.
